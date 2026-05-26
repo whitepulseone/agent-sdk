@@ -1,6 +1,6 @@
 # @whitepulse/agent-sdk
 
-Official JavaScript/TypeScript SDK for streaming chat with [WhitePulse](https://whitepulse.ai) AI agents via HTTP + Server-Sent Events (SSE).
+Official JavaScript/TypeScript SDK for streaming chat with [WhitePulse](https://www.whitepulse.ai) AI agents via HTTP + Server-Sent Events (SSE).
 
 Works in **browsers**, **Node.js 18+**, and **edge runtimes** (Cloudflare Workers, Vercel Edge, etc.).
 
@@ -227,4 +227,4 @@ import type {
 
 ## License
 
-MIT © [WhitePulse](https://whitepulse.ai)
+MIT © [WhitePulse](https://www.whitepulse.ai)
