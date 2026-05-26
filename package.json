@@ -1,0 +1,51 @@
+{
+  "name": "@whitepulse/agent-sdk",
+  "version": "0.1.1",
+  "description": "SDK for streaming chat with WhitePulse AI agents via HTTP+SSE",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts --clean",
+    "dev": "tsup src/index.ts --format cjs,esm --dts --watch",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "ai",
+    "agent",
+    "chat",
+    "sse",
+    "streaming",
+    "whitepulse"
+  ],
+  "author": "WhitePulse",
+  "license": "MIT",
+  "homepage": "https://www.whitepulse.ai",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whitepulseone/agent-sdk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/whitepulseone/agent-sdk/issues"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "tsup": "^8.0.0",
+    "typescript": "^5.4.0"
+  }
+}
